@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		6696788B277BFCFE00F14AB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6696788A277BFCFE00F14AB6 /* Preview Assets.xcassets */; };
 		66967896277BFCFF00F14AB6 /* swiftui_parchmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66967895277BFCFF00F14AB6 /* swiftui_parchmentTests.swift */; };
 		669678A1277BFCFF00F14AB6 /* swiftui_parchmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669678A0277BFCFF00F14AB6 /* swiftui_parchmentUITests.swift */; };
+		669678B0277BFFD800F14AB6 /* Parchment in Frameworks */ = {isa = PBXBuildFile; productRef = 669678AF277BFFD800F14AB6 /* Parchment */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669678B0277BFFD800F14AB6 /* Parchment in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +148,9 @@
 			dependencies = (
 			);
 			name = swiftui_parchment;
+			packageProductDependencies = (
+				669678AF277BFFD800F14AB6 /* Parchment */,
+			);
 			productName = swiftui_parchment;
 			productReference = 66967880277BFCFD00F14AB6 /* swiftui_parchment.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +222,9 @@
 				Base,
 			);
 			mainGroup = 66967877277BFCFD00F14AB6;
+			packageReferences = (
+				669678AE277BFFD800F14AB6 /* XCRemoteSwiftPackageReference "Parchment" */,
+			);
 			productRefGroup = 66967881277BFCFD00F14AB6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -580,6 +588,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		669678AE277BFFD800F14AB6 /* XCRemoteSwiftPackageReference "Parchment" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rechsteiner/Parchment";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		669678AF277BFFD800F14AB6 /* Parchment */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 669678AE277BFFD800F14AB6 /* XCRemoteSwiftPackageReference "Parchment" */;
+			productName = Parchment;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 66967878277BFCFD00F14AB6 /* Project object */;
 }
