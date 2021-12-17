@@ -97,6 +97,7 @@
 		66967882277BFCFD00F14AB6 /* swiftui_parchment */ = {
 			isa = PBXGroup;
 			children = (
+				669678B1277C012B00F14AB6 /* View */,
 				66967883277BFCFD00F14AB6 /* swiftui_parchmentApp.swift */,
 				66967885277BFCFD00F14AB6 /* ContentView.swift */,
 				66967887277BFCFE00F14AB6 /* Assets.xcassets */,
@@ -130,6 +131,13 @@
 				669678A2277BFCFF00F14AB6 /* Info.plist */,
 			);
 			path = swiftui_parchmentUITests;
+			sourceTree = "<group>";
+		};
+		669678B1277C012B00F14AB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
