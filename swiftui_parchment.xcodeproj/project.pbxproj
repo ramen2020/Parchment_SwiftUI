@@ -16,6 +16,7 @@
 		669678B0277BFFD800F14AB6 /* Parchment in Frameworks */ = {isa = PBXBuildFile; productRef = 669678AF277BFFD800F14AB6 /* Parchment */; };
 		669678B3277C016400F14AB6 /* NormalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669678B2277C016400F14AB6 /* NormalView.swift */; };
 		669678B5277C023F00F14AB6 /* CustomPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669678B4277C023F00F14AB6 /* CustomPageView.swift */; };
+		669678B7277C04A400F14AB6 /* CustomPageTest1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669678B6277C04A400F14AB6 /* CustomPageTest1View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		669678A2277BFCFF00F14AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		669678B2277C016400F14AB6 /* NormalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalView.swift; sourceTree = "<group>"; };
 		669678B4277C023F00F14AB6 /* CustomPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageView.swift; sourceTree = "<group>"; };
+		669678B6277C04A400F14AB6 /* CustomPageTest1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageTest1View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				669678B2277C016400F14AB6 /* NormalView.swift */,
+				669678B6277C04A400F14AB6 /* CustomPageTest1View.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				669678B3277C016400F14AB6 /* NormalView.swift in Sources */,
+				669678B7277C04A400F14AB6 /* CustomPageTest1View.swift in Sources */,
 				66967886277BFCFD00F14AB6 /* ContentView.swift in Sources */,
 				669678B5277C023F00F14AB6 /* CustomPageView.swift in Sources */,
 				66967884277BFCFD00F14AB6 /* swiftui_parchmentApp.swift in Sources */,

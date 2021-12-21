@@ -22,22 +22,6 @@ struct ContentView: View {
     }
 }
 
-struct CustomPageTest1View: View {
-    let items = [
-        PagingIndexItem(index: 0, title: "おはよう"),
-        PagingIndexItem(index: 1, title: "こんにちわ"),
-        PagingIndexItem(index: 2, title: "こんばんわ"),
-    ]
-
-    var body: some View {
-        CustomPageView(items: items) { item in
-            Text(item.title)
-                .font(.largeTitle)
-                .foregroundColor(.gray)
-        }
-    }
-}
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
