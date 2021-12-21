@@ -11,9 +11,9 @@ import UIKit
 
 struct NormalView: View {
     let items = [
-        PagingIndexItem(index: 0, title: "View 0"),
-        PagingIndexItem(index: 1, title: "View 1"),
-        PagingIndexItem(index: 2, title: "View 2"),
+        PagingIndexItem(index: 0, title: "おはよう"),
+        PagingIndexItem(index: 1, title: "こんにちわ"),
+        PagingIndexItem(index: 2, title: "こんばんわ"),
     ]
 
     var body: some View {
