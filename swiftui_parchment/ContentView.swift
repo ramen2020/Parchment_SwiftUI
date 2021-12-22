@@ -15,6 +15,7 @@ struct ContentView: View {
             List {
                 NavigationLink("NormalView", destination: NormalView())
                 NavigationLink("CustomPageView", destination: CustomPageTest1View())
+                NavigationLink("Scroll CustomPageView", destination: CustomPageTest2View())
             }
             .navigationBarTitleDisplayMode(.inline)
             navigationBarTitle("Parchment test")
