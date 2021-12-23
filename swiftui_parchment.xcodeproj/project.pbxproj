@@ -105,13 +105,13 @@
 		66967882277BFCFD00F14AB6 /* swiftui_parchment */ = {
 			isa = PBXGroup;
 			children = (
+				669678BA277C080D00F14AB6 /* Parchment */,
 				669678B1277C012B00F14AB6 /* View */,
 				66967883277BFCFD00F14AB6 /* swiftui_parchmentApp.swift */,
 				66967885277BFCFD00F14AB6 /* ContentView.swift */,
 				66967887277BFCFE00F14AB6 /* Assets.xcassets */,
 				6696788C277BFCFE00F14AB6 /* Info.plist */,
 				66967889277BFCFE00F14AB6 /* Preview Content */,
-				669678B4277C023F00F14AB6 /* CustomPageView.swift */,
 			);
 			path = swiftui_parchment;
 			sourceTree = "<group>";
@@ -150,6 +150,14 @@
 				669678B8277C05F100F14AB6 /* CustomPageTest2View.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		669678BA277C080D00F14AB6 /* Parchment */ = {
+			isa = PBXGroup;
+			children = (
+				669678B4277C023F00F14AB6 /* CustomPageView.swift */,
+			);
+			path = Parchment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
