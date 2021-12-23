@@ -9,6 +9,9 @@ import SwiftUI
 import Parchment
 
 struct CustomPageTest2View: View {
+
+    @State var currentText: String = "hello world"
+
     let items = [
         PagingIndexItem(index: 0, title: "おはよう"),
         PagingIndexItem(index: 1, title: "こんにちわ"),
@@ -16,6 +19,8 @@ struct CustomPageTest2View: View {
     ]
     
     var body: some View {
+        Text(currentText)
+            .padding(20)
         PageView(items: items) { item in
             Text(item.title)
                 .font(.largeTitle)
@@ -23,12 +28,15 @@ struct CustomPageTest2View: View {
         }
         .willScroll { pagingItem in
             print("will scroll: ", pagingItem)
+            currentText = "will scroll: \(pagingItem)"
         }
         .didScroll { pagingItem in
             print("did scroll: ", pagingItem)
+            currentText = "did scroll: \(pagingItem)"
         }
         .didSelect { pagingItem in
             print("did select: ", pagingItem)
+            currentText = "did select: \(pagingItem)"
         }
     }
 }
